@@ -1,0 +1,16 @@
+# Compiled Go binaries
+/gator
+/gator.exe
+*.test
+*.out
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.gatorconfig.json
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
